@@ -8,9 +8,11 @@ the SSH server.  View the commands which are being sent to the server and monito
 
 <p>
 Command
-`
+
+```
 root$ strace -p <pid> -f 2>&1 | grep 'read(0'
-`
+```
+
 
 </p>
 <p>
